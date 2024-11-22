@@ -1,0 +1,5 @@
+To build docker image
+-> docker build -t pythonapp .
+
+To run the docker image
+-> docker run pythonapp

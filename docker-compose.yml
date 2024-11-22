@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  sdev220m05labcasestudycontainersandci:
+    image: sdev220m05labcasestudycontainersandci
+    build:
+      context: .
+      dockerfile: ./Dockerfile
